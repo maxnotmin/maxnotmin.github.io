@@ -769,23 +769,20 @@ footer .right {
 .skill-div p {
     text-align: left;
     margin-left: 15px;
-
 }
 
 .skill-div ul {
     text-align: left;
     margin-left: 30px;
-
 }
+
 .skill-div li {
     font-weight: 400;
-
 }
 
 .skill-div li  span {
     font-weight: 300;
     font-style: italic;
-
 }
 
 .social_links {
@@ -793,7 +790,6 @@ footer .right {
     margin-right: auto;
     margin-bottom: 35px;
     text-align: center;
-
 }
 
 .contact-link {
@@ -821,7 +817,6 @@ footer .right {
     display: inline;
     margin-left: 5px;
     margin-right: 5px;
-
 }
 
 .contact-link :hover {
