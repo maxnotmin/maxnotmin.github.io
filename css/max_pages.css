@@ -169,6 +169,8 @@ textarea {
     color: #fff
 }
 
+
+
 h1 {
     margin: 90px auto 0 auto;
     font-size: 48px;
@@ -184,7 +186,7 @@ h1 {
     -webkit-backface-visibility: hidden;
     max-width: 830px;
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 .page #hero-spot img {
@@ -778,14 +780,50 @@ footer .right {
 .skill-div li {
     font-weight: 400;
 
-
-
 }
 
 .skill-div li  span {
     font-weight: 300;
     font-style: italic;
 
+}
 
+.social_links {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    text-align: center;
 
+}
+
+.contact-link {
+    position: relative;
+    background-color: #333;
+    color: #bbb;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: color 0.2s ease-in-out 0s;
+    -moz-transition: color 0.2s ease-in-out 0s;
+    -o-transition: color 0.2s ease-in-out 0s;
+    transition: color 0.2s ease-in-out 0s
+    display:inline-block;
+}
+
+.social_links ul {
+    display: inline-block;
+}
+
+.social_links li {
+    list-style: none;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.contact-link :hover {
+    color: #fff
 }
