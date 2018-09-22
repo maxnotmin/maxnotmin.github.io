@@ -3,6 +3,25 @@
  */
 
 // reset default buttons
+
+//TMP COLORs
+//Gradients
+$yelllow_top: #D3D3C0;
+$yellow_bottom: #e9eabd;
+$small_button_text_color: #1e1e1e;
+
+//MIXINS
+@mixin linearGradientButton($button_top, $button_bottom){
+        background: $button_top; /* Old browsers */
+        background: -moz-linear-gradient(top,  $button_top 0%, $button_bottom 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$button_top), color-stop(100%,$button_bottom)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  $button_top 0%,$button_bottom 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  $button_top 0%,$button_bottom 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  $button_top 0%,$button_bottom 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  $button_top 0%,$button_bottom 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
 button {
   background-color: transparent;
   border: 0;
@@ -28,6 +47,7 @@ button {
   text-transform: uppercase;
   transition: opacity .2s ease-in-out;
   white-space: nowrap;
+
 
   &:focus,
   &:hover,
@@ -75,6 +95,10 @@ button {
       font-size: map-get($button-meta, fontSize);
       line-height: #{map-get($button-meta, lineHeight)}em;
       padding: map-get($button-meta, paddingTB) map-get($button-meta, paddingLR);
+
+      @include linearGradientButton($yelllow_top, $yellow_bottom);
+      color: $small_button_text_color;
+
 
     }
 
