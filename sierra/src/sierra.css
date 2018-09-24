@@ -2021,6 +2021,9 @@ h4 {
   background-color: #f3edf3;
   max-width: none; }
 
+.heavy-text {
+  font-weight: 800; }
+
 .space {
   padding-bottom: 20px; }
 
