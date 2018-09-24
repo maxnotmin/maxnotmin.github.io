@@ -22,6 +22,7 @@ $mid_color1: #f3edf3;
 $mid_color2: #f1f1e5;
 
 $main_text_color: #101820;
+$off_black: #3c3c3c;
 
 
 
@@ -66,6 +67,10 @@ $main_text_color: #101820;
 
 .heavy-text {
   font-weight: 800;
+}
+
+.main-text {
+  color: $off_black;
 }
 
 .space {

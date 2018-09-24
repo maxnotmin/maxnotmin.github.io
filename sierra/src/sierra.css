@@ -1882,33 +1882,36 @@ a {
     margin-top: .5em; }
 .text-huge {
   font-family: "Arial", sans-serif;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 300;
   text-transform: none; }
   @media (min-width: 992px) {
     .text-huge {
-      font-size: 40px; } }
+      font-size: 48px; } }
   @media (min-width: 1280px) {
     .text-huge {
       font-size: 48px; } }
 .text-big {
   font-family: "Arial", sans-serif;
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 300;
   text-transform: none; }
   @media (min-width: 992px) {
     .text-big {
-      font-size: 28px; } }
+      font-size: 30px; } }
 .text-medium {
   font-family: "Arial", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
   text-transform: none; }
+  @media (min-width: 768px) {
+    .text-medium {
+      font-size: 30px; } }
 .text-small, label.label {
-  font-size: 12px; }
+  font-size: 18px; }
   @media (min-width: 768px) {
     .text-small, label.label {
-      font-size: 14px; } }
+      font-size: 18px; } }
 .text-body {
   font-size: 14px;
   line-height: 1.5em; }
@@ -2023,6 +2026,9 @@ h4 {
 
 .heavy-text {
   font-weight: 800; }
+
+.main-text {
+  color: #3c3c3c; }
 
 .space {
   padding-bottom: 20px; }
