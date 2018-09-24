@@ -52,12 +52,14 @@ $main_text_color: #101820;
 }
 
 .grad_casual_light {
-  @include linearGradientButton($top_color1, $top_color2);
+  //@include linearGradientButton($top_color1, $top_color2);
+  background-color: $top_color1;
   max-width: none;
 }
 
 .grad_casual_dark {
-  @include linearGradientButton($mid_color1, $mid_color2);
+  //@include linearGradientButton($mid_color1, $mid_color2);
+  background-color: $mid_color1;
   max-width: none;
 
 }
