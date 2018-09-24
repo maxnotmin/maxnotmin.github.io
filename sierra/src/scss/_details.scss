@@ -60,7 +60,7 @@ $off_black: #3c3c3c;
 
 .grad_casual_dark {
   //@include linearGradientButton($mid_color1, $mid_color2);
-  background-color: $mid_color1;
+  background-color: $top_color1;
   max-width: none;
 
 }
@@ -91,7 +91,7 @@ $off_black: #3c3c3c;
 }
 
 .drop_shadow {
-  filter: drop-shadow(0px 0px 5px #101010)
+  //filter: drop-shadow(0px 0px 5px #101010)
 }
 
 .img_pad {
@@ -152,7 +152,7 @@ $off_black: #3c3c3c;
 .col-2img {
 
   img {
-
+    border: #1e1e1e;
   }
 
 }
@@ -236,8 +236,8 @@ $off_black: #3c3c3c;
     font-weight: bold;
     transition: 0.3s;
 
-  &::hover{}
-  &::focus{
+  &:hover{}
+  &:focus{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
