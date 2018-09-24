@@ -2046,6 +2046,9 @@ h4 {
 .img_pad {
   padding: 10px; }
 
+.img_bd {
+  border: solid thin #a1a0a5; }
+
 .example-dark h2 {
   font-weight: 400; }
 
@@ -2072,9 +2075,6 @@ h4 {
 
 #maxnot_barterisland {
   margin-bottom: 50px; }
-
-.col-2img img {
-  border: #1e1e1e; }
 
 .do_clear {
   clear: both; }
