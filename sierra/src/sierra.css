@@ -2025,7 +2025,7 @@ h4 {
   max-width: none; }
 
 .heavy-text {
-  font-weight: 800; }
+  font-weight: 600; }
 
 .main-text {
   color: #3c3c3c; }
@@ -2036,6 +2036,12 @@ h4 {
 .vid-border {
   margin: auto;
   border: 5px solid #ffffff; }
+
+.video-container {
+  width: 620px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto; }
 
 .drop_shadow {
   filter: drop-shadow(0px 0px 5px #101010); }
@@ -2054,6 +2060,9 @@ h4 {
   font-size: smaller;
   font-weight: 200;
   margin-left: 5px; }
+  @media (min-width: 992px) {
+    .proj_note {
+      margin-left: 12px; } }
 
 .skills ul {
   text-align: left;

@@ -66,7 +66,7 @@ $off_black: #3c3c3c;
 }
 
 .heavy-text {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .main-text {
@@ -81,6 +81,13 @@ $off_black: #3c3c3c;
   margin: auto;
   border: 5px solid $white;
 
+}
+
+.video-container {
+  width: 620px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .drop_shadow {
@@ -115,6 +122,9 @@ $off_black: #3c3c3c;
   font-size: smaller;
   font-weight: 200;
   margin-left: 5px;
+  @include breakpoint(bp-large){
+    margin-left: 12px;
+  }
 }
 
 .skills {
