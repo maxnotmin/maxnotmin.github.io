@@ -4,9 +4,10 @@
  *  Configure sierra SCSS library by adjusting this file
  *
  */
+$the_red: #852e2c;
 
 // Brand colors
-$brand-primary:         #1abc9c;
+$brand-primary:         $the_red;
 $brand-secondary:       #9b59b6;
 $brand-dark:            #18232f;
 $brand-light:           #34495e;
@@ -46,9 +47,11 @@ $linkedin: #4875b4;
 $flickr: #fe0883;
 $foursquare: #8fd400;
 
+
+$dark_body_text: #101820;
 // Text colors
-$text-color:            $white;       // deprecated. Use $text-body instead.
-$text-body:             $text-color;
+$text-color:            $dark_body_text;       // deprecated. Use $text-body instead.
+$text-body:             $dark_body_text;
 $text-gray:             #969da6;
 
 $text-color-map: (
@@ -273,7 +276,7 @@ $tag-bg-color:          $brand-light;
 $tag-bullet:            $body-bg;
 
 // Typography
-$basefont: 'Lato', sans-serif;
+$basefont: 'Arial', sans-serif;
 $codefont: 'Courier New', monospace;
 
 $font-size-base:        14px;
@@ -281,7 +284,7 @@ $font-size-base-medium: 15px;
 $font-size-base-large:  15px;
 
 $line-height-base:      1.5em;
-$font-weight-base:      400;
+$font-weight-base:      300;
 
 $heading-font:          $basefont;
 $heading-weight:        300;

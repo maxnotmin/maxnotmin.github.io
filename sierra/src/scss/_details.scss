@@ -13,6 +13,20 @@ $vid_border: #1e1e1e;
 $slate01: #142929;
 $slate02: #18232f;
 
+
+//SOFT COLORS
+$top_color1: #dde4ec;
+$top_color2: #dcf9f3;
+
+$mid_color1: #f3edf3;
+$mid_color2: #f1f1e5;
+
+$main_text_color: #101820;
+
+
+
+
+
 @mixin linearGradientButton($button_top, $button_bottom) {
   background: $button_top; /* Old browsers */
   background: -moz-linear-gradient(top, $button_top 0%, $button_bottom 100%); /* FF3.6+ */
@@ -21,7 +35,7 @@ $slate02: #18232f;
   background: -o-linear-gradient(top, $button_top 0%, $button_bottom 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, $button_top 0%, $button_bottom 100%); /* IE10+ */
   background: linear-gradient(to bottom, $button_top 0%, $button_bottom 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=0); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0); /* IE6-9 */
 }
 
 @mixin video_border() {
@@ -38,13 +52,14 @@ $slate02: #18232f;
 }
 
 .grad_casual_light {
-  @include linearGradientButton($slate01, $slate02);
+  @include linearGradientButton($top_color1, $top_color2);
   max-width: none;
 }
 
 .grad_casual_dark {
-  @include linearGradientButton($darker2_grad, $mid2_grad);
+  @include linearGradientButton($mid_color1, $mid_color2);
   max-width: none;
+
 }
 
 .space {
@@ -207,4 +222,32 @@ $slate02: #18232f;
     cursor: pointer;
   }
 
+}
+
+//FONTING AROUND
+
+#michael {
+  color: $main_text_color;
+  letter-spacing: 8px;
+  font-weight: 100;
+}
+
+#title_text{
+  color: $main_text_color;
+    letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.title_link {
+      letter-spacing: 2px;
+  font-weight: 100;
+
+}
+
+#linkedin{
+  margin-right: 5em;
+}
+
+#email{
+  margin-left: 5em;
 }
