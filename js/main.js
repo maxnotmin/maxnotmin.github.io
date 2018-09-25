@@ -2,9 +2,7 @@
  * Created by michaelmaxwell on 9/23/18.
  */
 var HelloYou = (function(){
-    console.log("Hello there, thanks for visiting my page. The style and layout is always changing. If you are reading this, then you are probably curious about how I made this sit and perhaps what other technologies I use. I used the GitHub pages framework for this site because " +
-            "it's familiar to developers and very straightforward. It was quick to implement. If you are interested in seeing my some of my graphic design work and video production" +
-            "work, please give me an email. Thank you!")
+    console.log("Hello there, thanks for visiting my page. The style and layout is always changing. If you have any questions please send me an email.")
 })();
 
 
