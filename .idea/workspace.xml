@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2b2764-4a50-4c2c-a787-56a595ce94b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sierra/src/scss/_details.scss" afterPath="$PROJECT_DIR$/sierra/src/scss/_details.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sierra/src/sierra.css" afterPath="$PROJECT_DIR$/sierra/src/sierra.css" />
     </list>
     <ignored path="maxnotmin.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,39 +29,28 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.light.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sierra/src/_variables.light.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.375">
-              <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_details.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_details.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sierra/src/scss/_details.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8039217">
-              <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.39300698">
+              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
               <folding>
                 <element signature="e#1300#3264#2" expanded="true" />
-                <element signature="e#3748#5851#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03916449">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="150" selection-start-line="4" selection-start-column="150" selection-end-line="4" selection-end-column="150" />
               <folding>
                 <element signature="e#0#48#0" expanded="false" />
@@ -103,8 +93,8 @@
         <option value="$PROJECT_DIR$/index_res.html" />
         <option value="$PROJECT_DIR$/sierra/src/scss/_typography.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/sierra/src/scss/_details.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/sierra/src/scss/_details.scss" />
       </list>
     </option>
   </component>
@@ -566,7 +556,6 @@
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
             <element signature="e#1300#3264#2" expanded="true" />
-            <element signature="e#3748#5851#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,7 +582,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#1300#3264#2" expanded="true" />
-            <element signature="e#3748#5851#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,7 +600,6 @@
           <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding>
             <element signature="e#1300#3264#2" expanded="true" />
-            <element signature="e#3748#5851#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -801,39 +788,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sierra/src/_variables.light.scss">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.375">
-          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="150" selection-start-line="4" selection-start-column="150" selection-end-line="4" selection-end-column="150" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sierra/src/scss/_details.scss">
+    <entry file="file://$PROJECT_DIR$/sierra/src/_variables.light.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8039217">
-          <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
-          <folding>
-            <element signature="e#1300#3264#2" expanded="true" />
-            <element signature="e#3748#5851#2" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7884097">
+          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/sierra/src/scss/_details.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03916449">
-          <caret line="4" column="150" selection-start-line="4" selection-start-column="150" selection-end-line="4" selection-end-column="150" />
+        <state vertical-scroll-proportion="0.39300698">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
           <folding>
-            <element signature="e#0#48#0" expanded="false" />
+            <element signature="e#1300#3264#2" expanded="true" />
           </folding>
         </state>
       </provider>
