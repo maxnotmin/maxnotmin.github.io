@@ -1,321 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link type="text/css" href="sierra/src/sierra.css" media="all" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Michael Maxwell: Full Stack Developer | Designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Michael Maxwell</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="theme_style.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
+
 <body>
-<main>
-    <div class="container feature_color2">
-        <section class="section">
-            <div class="align-center">
-                <div>
-                    <h1 class="text-huge text-with-subtitle heavy-text" id="michael">Michael Maxwell </h1>
-                    <h2 class="text-medium" id="title_text detail_title">full stack developer | designer</h2>
-                    <p><a
-                          href="https://www.linkedin.com/in/michaelscottmaxwell/" class="title_link" id="linkedin">linkedIn</a>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title"><span id="max_name">Michael Maxwell</span></span>
+                    <span class="mdl-layout__title"><span id="max_title">Full Stack Developer + Designer</span></span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                <a class="mdl-navigation__link" href="about.html">About</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image img_style" src="images/max_thumb_adminme_400.jpg"  alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Web Development</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Throughout my career I’ve created and
+                        maintained sites built with Grails and
+                        Python as well as static HTML sites.
+                        I love being able to navigate around
+                        the entire web app to understand how it all fits together.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="web_dev.html">Read more</a>
+                    </div>
+                </div>
 
-                        <a href="https://github.com/maxnotmin/" class="title_link">github</a>
-                        <a href="mailto: michaelscottmaxwell@gmail.com" class="title_link" id="email">email</a>
-                    </p>
+
+                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image img_style" src=" images/max_thumb_des_citra_400.jpg" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Design and Branding</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        I'm able to mock up web page layouts for new sites
+                        or taking existing site and make them mobile friendly.
+                        The project requirements can dictate my approach
+                        to the design. Graphic Design and branding is also within my
+                        skillset.
+                     </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="design_branding.html">Read more</a>
+                    </div>
+                </div>
+
+
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/max_thumb_auto_sel_400.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Selenium Automation</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        During my time at Nationwide Insurance I’ve created
+                        a number of Selenium scripts that automated the
+                        browser that either grabbed information from the
+                        rendered browser or tested a website before
+                        deployment.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="selenium_auto.html">Read more</a>
+                    </div>
+                </div>
+
+
+
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/max_thumb_auto_rocket_400.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">RocketChat Automation</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                    Using a combination of RocketChat, Python, HP Orchestration
+                    software and REST calls, I’m able to provide tools to
+                    developers that can kickoff infrastructure events, giving them
+                    time back in their work day.
+                        <br>
+                        <br>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="rocketchat_auto.html">Read more</a>
+                    </div>
+                </div>
+
+
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/max_thumb_des_mindleaders_400.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Resume </h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        I'm looking for a new place of work in the Phoenix Arizona area that I can call home.
+                        <br>
+                        <br>
+                        <div div="bnt_spacer">
+
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="bt_pdf">
+
+                        <a href="https://www.dropbox.com/s/fgnatkhc5125b4q/micheal_s_maxwell_resume_2018_10.pdf?dl=0" class="mdl-button__ripple-container" class="btn_co">PDF</a>
+                                </button>
+
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="bt_doc">
+
+                        <a href="https://www.dropbox.com/s/27vhdkfmeb8gd7e/micheal_s_maxwell_resume_2018_10.docx?dl=0" class="mdl-button__ripple-container" class="btn_co">DOC</a>
+                                </button>
+                            </div>
+                        <br>
+
+
+
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+
+                    </div>
+                </div>
+
+
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/max_thumb_des_mobile_400.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">About Me</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        I'm a developer, I'm a designer. Throughout my career I've just been thrown projects and been
+                        asked to "figure it out". I like being challenged and I love learning new technology.
+                        <br>
+                        <br>
+                        <br>
+
+
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="mobile_graphics.html">Read more</a>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- END CONTAINER -->
-    </div>
-
-
-
-    <!-- EXAMPLE DEV WORK SECTION -->
-    <div class="space" id="bg_dev">
-    <div class="container">
-        <section class="section">
-            <h2 class="text-big heavy-text">Web Development</h2>
-            <p class="text-small main-text">I’m comfortable creating websites from the ground up or taking over existing sites and figuring out how
-                they work. During my time at Nationwide Insurance I’ve created and maintained sites built with Grails and
-                Python as well as static HTML sites. From programming database queries and server deployments to creating
-                graphics and writing CSS, I’ve touched just about every part of the application life cycle.</p>
-            <div class="row">
-                <div class="col-xs-12 col-md-6 example-dark">
-                    <h2 class="text-medium">adminme.nwie.net</h2>
-                    <p class="text-small main-text"> This internal Nationwide site is called Adminme. It allows engineers to elevate
-                        their privileges to certain machines. Using Python Flask and BackboneJS we were able to create
-                        and deploy a robust tool able to communicate with multiple domains. This site was required to be IE10 and Firefox compatible.
-                        </p>
-                    <p class="details">
-                        Technologies Used: <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>,
-                        <a href="http://backbonejs.org/">BackBoneJS</a>, <a href="https://sass-lang.com/">SASS</a>,
-                        <a href="https://www.postgresql.org/">PostgreSQL</a>,
-                         <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>
-                    </p>
-                        <div class="img_pad" id="maxnot_site_admin01">
-                           <img class="img_bd" id="amdimne" src="images/maxnot_site_admin01-450.jpg" onclick="makeLargeImg(this)">
-                        </div>
-
-
-                    <p> This site was deployed to a Windows server using IIS and FastCGI with the website using a PostgreSQL DB.
-                    </p>
-                    <p class="proj_note">Project Year: 2016</p>
-
-
+                <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">&copy; 2018 Micheal Maxwell</div>
                 </div>
-                <div class="col-xs-12 col-md-6 example-dark">
-                    <h2 class="text-medium">cobralabs.nwie.net</h2>
-                    <p class="text-small main-text"> Nationwide CobraLabs displays basic information about the services we provided as well as a form to
-                        allow customers to request automation consultation. The frontend theme we designed and developed allowed us to quickly writeframe new projects
-                        and conformed to Nationwide brand standards.
-                    </p>
-                    <p class="details">
-                        Technologies Used: <a href="https://www.python.org/">Python</a>, <a href="http://flask.pocoo.org/">Flask</a>,
-                        <a href="http://backbonejs.org/">BackBoneJS</a>, <a href="https://sass-lang.com/">SASS</a>,
-                        <a href="https://www.sqlite.org/index.html">SQLite</a>,
-                        <a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>,
-                        <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>
-                    </p>
-                        <div class="img_pad" id="maxnot_site_cobralabs">
-                           <img class="img_bd" id="cobralabs" src="images/maxnot_site_cobra01-450.jpg" onclick="makeLargeImg(this)">
-                        </div>
-
-
-                    <p> This site was deployed to a linux server using Apache with the website using a SQLite DB.
-                    </p>
-                    <p class="proj_note"> Project Year: 2015</p>
-
-                </div>
-
-            </div>
-        </section>
-    </div>
-        </div>
-
-    <!-- EXAMPLE AUTOMATION -->
-    <div class="" id="bg_auto">
-        <div class="container">
-            <section class="section">
-                <h2 class="text-big heavy-text">Automation Work</h2>
-                <p class="text-small main-text">During my time working within Infrastructure and Operations the teams I were apart of focused on automating
-                    redundant tasks and finding ways to ways to give time back to people. Typically using a combination
-                    Python, Javascript, REST, APIs and Orchestration software allowed complexed tasks to be streamlined.</p>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <h2 class="text-medium">Selenium Browser Automation</h2>
-                       <p class="text-small main-text">The Nationwide Security Team required user information from the rendered <a href="https://www.qualys.com/">Qualys</a> website.
-                A self contained tool was built using Python and Selenium saving them 8-16 hours of month.</p>
-                        <p class="details">
-                        Technologies Used: <a href="https://www.python.org/">Python</a>, <a href="https://www.seleniumhq.org/">Selenium</a>, <a href="https://www.pyinstaller.org/">PyInstaller</a>, <a href="http://phantomjs.org/">PhantomJS</a>
-                        </p>
-
-                        <div class="video-container">
-                        <video width="620" height="359" id="selenium_auto"
-                               src="https://www.dropbox.com/s/3oukiy16umx2k6q/maxnot_selenium_comp.mp4?raw=1"
-                               poster="images/msm_video_placeholder_sel.jpg" controls>
-                            <source src="https://www.dropbox.com/s/3oukiy16umx2k6q/maxnot_selenium_comp.mp4?raw=1"
-                                    type="video/mp4">
-                        </video>
-
-                            <p class="proj_note">Project Year: 2016</p>
-                        </div>
-
-
-
-
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <h2 class="text-medium">RocketChat Urban Code Automation</h2>
-                       <p class="text-small main-text"> Using RocketChat and HP Orchestration Operations I created a ChatBot and automation flow
-                            that allows the users to get information, create and modify Urban Code Teams.
-                        </p>
-                        <p class="details">
-                        Technologies Used: <a href="https://www.python.org/">Python</a>, <a href="https://hubot.github.com/">Hubot</a>, <a href="http://www.hp.com/hpinfo/newsroom/press_kits/2009/HPSoftwareUniverseHamburg09/HPOODataSheet.pdf">HP Orchestration Operations</a>, <a href="https://nodejs.org/">NodeJS</a>
-                        </p>
-
-                        <div class="video-container">
-                        <video width="620" height="359" id="rocket_auto"
-                               src="https://www.dropbox.com/s/mww2qwrskljzm6n/maxnot_ucd_comp.mp4?raw=1"
-                               poster="images/msm_video_placeholder_ucd.jpg" controls>
-                            <source src="https://www.dropbox.com/s/mww2qwrskljzm6n/maxnot_ucd_comp.mp4?raw=1"
-                                    type="video/mp4">
-                        </video>
-
-                            <p class="proj_note">Project Year: 2018</p>
-                        </div>
-
-
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <!-- EXAMPLE DESIGN WORK -->
-    <div class="" id="bg_design">
-    <div class="container">
-        <section class="section">
-            <h2 class="text-big heavy-text">Design and Graphics</h2>
-            <p class="text-small main-text">During my time as a graphic designer I’ve worn many hats and had to be able to pivot to many different types of
-                projects within fast paced marketing environments. I’m able to produce design assets within established brands
-                standards as well as creating my own. I can create a wide range of assets from webpage layouts and printed brochures
-                to animation and sound design.</p>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <h2 class="text-medium">Layout and Branding</h2>
-                    <p class="text-small main-text"> During my time at MindLeaders (now <a href="https://www.skillsoft.com/about/mindleaders/">Skillsoft</a>) I was responsible for designing eLearning courses.
-                        This responsibility included: course branding, page layout and animations. Sometimes the course
-                        required customs JavaScript or ActionScript. Each interactive eLearning course was created using Flash or HTML5.
-                    </p>
-                   <p class="details">
-                        Technologies Used: Photoshop, Illustrator, Flash, AfterFX, Premiere, Audition, HTML, CSS, JavaScript
-                        </p>
-                    <div class="img_pad" id="maxnot_mindleader_inter">
-                           <img class="img_bd" id="mindleaders" src="images/maxnotmin_mindleaders_interface_450.jpg" onclick="makeLargeImg(this)">
-                        </div>
-                    <p class="proj_note">Project Year: 2012</p>
-                    </div>
-
-
-                <div class="col-xs-12 col-md-6">
-                    <h2 class="text-medium">Mobile App Graphics</h2>
-                    <p class="text-small main-text"> I was contracted to convert the graphics from a 2005 Flash game to scalable HD graphics for mobile
-                        devices. I was able to expedite the scaling of the graphics by using Python.
-                        Each game level and scene had to be recreated in Photoshop and PhaserJS. The mobile app was deployed
-                        using the Ionic Framework. The Game: <a href="https://itunes.apple.com/us/app/escape-from-the-barter-islands/id1069948742?ls=1&mt=8">Barter Island</a>
-                    </p>
-                   <p class="details">
-                        Technologies Used: Photoshop, <a href="https://www.sketchapp.com/">Sketch</a>, <a href="https://phaser.io/">PhaserJS</a>, <a href="https://ionicframework.com/">Ionic</a>, <a href="https://cairosvg.org/">Python CarioSVG</a>
-                        </p>
-                    <div class="img_pad" id="maxnot_barterisland">
-                           <img id="barterisland" src="images/maxnot_barter_450.png" onclick="makeLargeImg(this)">
-                        <p class="proj_note">Project Year: 2017
-                    </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-                <!-- 2nd ROW -->
-                <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <h2 class="text-medium">Web Design</h2>
-                    <p class="text-small main-text"> Over the years I’ve been asked to performing many different web design related tasks. This project required
-                        me to convert a rather old ASP.NET site site into a responsive site.
-                        I was hand a server and 12GB of data and let loose on it. <a href="https://www.citrasolv.com/">CitraSolv.com</a> have since moved to SqaureSpace for their hosting
-                        design needs.
-                    </p>
-
-                    <div class="img_pad" id="maxnot_citrasolv">
-                           <img class="img_bd" id="citrasolv" src="images/maxnot_citra_solv_mobile_conversion_450.jpg" onclick="makeLargeImg(this)">
-                        </div>
-                    <p class="proj_note">Project Year: 2014</p>
-                 </div>
-
-
-                <div class="col-xs-12 col-md-6">
-                    <h2 class="text-medium">Graphic Art</h2>
-                    <p class="text-small main-text"> These graphics and assets were produced for a podcast that are to be used across all mediums.
-                        The 4k graphics are able to be used on the web, video, social meida, print and podcast Apps.
-                        Using a combination of Adobe Creative Suite and good old fashion pen and paper,
-                        I was able to create a versatile set of images.
-                    </p>
-                    <div class="row">
-                    <div class="col-xs-6 img_pad" id="maxnot_obdm_city">
-                           <img class="img_bd" id="obdmcity" src="images/maxnot_obdm_city-450s.jpg" onclick="makeLargeImg(this)">
-                        </div>
-                    <div class="col-xs-6 img_pad" id="maxnot_obdm_des">
-                           <img  class="img_bd" id="obdmdesert" src="images/maxnot_obdm_desert-450s.jpg" onclick="makeLargeImg(this)">
-                        </div>
-                        <div class="do_clear "></div>
-                     <p class="proj_note">Project Year: 2015 - 2018
-                    </p>
-                    </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </section>
-    </div>
-        </div>
-
-    <!-- SKILL SECTION-->
-    <div class="grad_casual_light" id="bg_skills">
-        <div class="container">
-            <section class="section">
-                <h2 class="text-big heavy-text">Skills</h2>
-                <p class="text-small main-text">Through out my career as a developer and graphic designer I’ve had to adapt to many different
-                    working environments and be able to learn new skills and technologies on the fly. I’ve worked
-                    within strict agile development teams and chaotic marketing teams. </p>
-                <div class="col-xs-12 col-md-4 skills">
-                    <h2 class="text-medium">Frontend</h2>
-                    <p> <ul>
-                        <li>FrontEnd: <span>HTML, JavaScipt, CSS, SASS</span></li>
-                        <li>Frameworks: <span>Flask, BackBoneJS, VueJS, Grails</span></li>
-                        <li>Testing: <span>Selenium, LoadRunner</span></li>
-                    <li>Version Control: <span>Subversion, GitHub</span></li>
-                        <li>Tools / Misc: <span>Bootstraps, Gulp, npm, pip </span></li>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="https://www.linkedin.com/in/michaelscottmaxwell/">LinkedIn</a> </li>
+                        <li><a href="https://github.com/maxnotmin/">GitHub</a></li>
+                        <li><a href="mailto: michaelscottmaxwell@gmail.com">Email</a></li>
                     </ul>
-
-                    </p>
                 </div>
-                <div class="col-xs-12 col-md-4">
-                    <h2 class="text-medium">Backend</h2>
-                    <p> <ul>
-                    <li>RunTime: <span> Python, NodeJS</span></li>
-                    <li>DataBase: <span> PostreSQL, SQLite, Oracle</span></li>
-                    <li>Server: <span> Apache</span></li>
-                    <li>Deployment: <span>Urban Code</span></li>
-                    <li>Build: <span>Jenkins, Hudson</span></li>
-                    <li>OS: <span> Linux, Windows, Mac</span></li>
-                    <li>Automation: <span>HP Orchestration Operations, HP Server Automation, HuBot, Selenium, Sphinx</span></li>
-                </ul>
-                    </p>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                    <h2 class="text-medium">Design</h2>
-                    <p> <ul>
-                    <li>Graphic Design: <span>Adobe Creative Suite, Sketch </span></li>
-                    <li>Video Production: <span>Premier, Hitfilm Pro</span></li>
-                    <li>Audio: <span>Logic Pro, ProTools, Audacity, Soundforge</span></li>
-                    <li>Automation: <span>CarioSVG, Pillow</span></li>
-                </div>
-            </section>
-
-        </div>
+            </footer>
+        </main>
     </div>
-
-
-</main>
-
-<footer class="feature_color2">
-    <div class="container">
-        <div class="section text-center text-small">
-            <p>
-                <a href="https://www.linkedin.com/in/michaelscottmaxwell/">LinkedIn</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="https://twitter.com/maxnotmin">Twitter</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="https://github.com/maxnotmin/">GitHub</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="mailto: michaelscottmaxwell@gmail.com">Email</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-                <span>&copy; 2018 Micheal Maxwell</span>
-            </p>
-
-
-        </div>
-    </div>
-</footer>
-<!-- The Modal -->
-<div id="theModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="big_img">
-  <div id="caption"></div>
-</div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
-<script src="js/main.js">
-
-</script>
-<script>
-
-</script>
 
 </html>
