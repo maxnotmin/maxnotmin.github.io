@@ -25,8 +25,8 @@
             </div>
             <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
                 <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link is-active" href="about.html">About</a>
+                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="about.html">About</a>
                     <a class="mdl-navigation__link" href="contact.html">Contact</a>
                 </nav>
             </div>
@@ -40,55 +40,43 @@
         </div>
         <main class="mdl-layout__content">
             <div class="mdl-grid portfolio-max-width">
-
                 <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">About</h2>
+                        <h2 class="mdl-card__title-text">Infrastructure &#38; Automation </h2>
                     </div>
                     <div class="mdl-card__media">
-                        <img class="article-image" src=" images/about-header.jpg" border="0" alt="">
+
                     </div>
-
+                    <div class="mdl-card__supporting-text">
+                        <strong>Includes</strong>
+                        <span>Data Visualization, Monitoring, Python Web Development, Deployment</span>
+                    </div>
                     <div class="mdl-grid portfolio-copy">
-
-                        <div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Metrics & Alerting</h3>
+                        <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
                             <p>
-                                My name is Michael Maxwell. I graduated from art school in 2000 and have been working
-                                with computers and art ever since. I’m always creating something, whether it’s a Python
-                                script to automatically edit videos, designing a web site for a large company, or developing a motion sensor video display for a haunted house.
-                                When I’m not making things, I like to walk my dogs and make muisc with my wife Rhianna. I used to play
-                                in a viking metal band called <a href="https://mybattleaxe.bandcamp.com/releases">Battle Axe</a>
-                                (we dressed up like vikings and sang about boats and swords).
+                                Some of my time at State Farm was spent creating and updating Grafana Dashboards. These dashboards
+                                display metrics that are scraped by various instances of Promehteus. I wrote a Python scirpt
+                                that would screach and update outdated PromQL statements.
+
                             </p>
                             <p>
-                                Currently we live in Phoenix, Arizona. It's beautiful here but we are looking to move back to Ohio to be closer to friends and family.
+                                I also developed an internal Python Django application and deployed it using Docker and Kubernetes.
+                                This site served as a "Front Door" for other teams to request infrastructure monitoring
+                                and for existing customers to update and create new Prometheus alerts by using a form,
+                                instead of manually pulling, updating and committing the alerting rules.
+
                             </p>
-                            <p>
-                                My resume is below in PDF and DOC format. Thanks for taking the time to stop by.
-                            </p>
-
-                            <br>
-                        <div div="bnt_spacer">
-
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="bt_pdf">
-
-                        <a href="https://www.dropbox.com/s/hzm1lzfwmaevkdg/Michael%20S%20Maxwell%20Full%20Stack%20Developer%202020.pdf?dl=0" class="mdl-button__ripple-container" class="btn_co">PDF</a>
-                                </button>
-
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="bt_doc">
-                        <a href="https://www.dropbox.com/s/l11nxgax9cljvqs/Michael%20S%20Maxwell%20Full%20Stack%20Developer%202020.docx?dl=0" class="mdl-button__ripple-container" class="btn_co">DOC</a>
-                                </button>
-                            </div>
+                            <p><strong>Technologies Used</strong>
+                        <span>Docker, Grafana, Django, Python, Go, Docker, Kubernetes, Prometheus, Consul</span></p>
                         </div>
-
-
-
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <img class="article-image" id="django" src="images/max_thumb_state_django_400.jpg" border="0" alt="Django | Prometheus | Grafana" onclick="makeLargeImg(this)">
+                        </div>
 
 
                     </div>
                 </div>
-
-
             </div>
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
@@ -104,7 +92,15 @@
             </footer>
         </main>
     </div>
+
+    <div id="theModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="big_img">
+        <div id="caption"></div>
+    </div>
+
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/overwrite.js"></script>
 </body>
 
 </html>

@@ -10,7 +10,9 @@ var large_img_obj = {
     "barterisland": {"id":"maxnot_barterisland", "smimg": "maxnot_barter_450.png", "lrgimg":"maxnot_barter_1080.png"},
     "citrasolv": {"id":"maxnot_citrasolv", "smimg": "maxnot_citra_solv_mobile_conversion_450.jpg", "lrgimg":"maxnot_citra_solv_mobile_conversion.jpg"},
     "obdmcity": {"id":"maxnot_obdm_city", "smimg": "maxnot_obdm_city-450s.jpg", "lrgimg":"maxnot_obdm_city-1080.jpg"},
-    "obdmdesert": {"id":"maxnot_obdm_des", "smimg": "maxnot_obdm_desert-450s.jpg", "lrgimg":"maxnot_obdm_desert-1080.jpg"}
+    "obdmdesert": {"id":"maxnot_obdm_des", "smimg": "maxnot_obdm_desert-450s.jpg", "lrgimg":"maxnot_obdm_desert-1080.jpg"},
+    "django": {"id":"django", "smimg": "max_thumb_state_django_400.jpg", "lrgimg":"max_thumb_state_django.jpg"}
+
 
 
 };
@@ -19,7 +21,7 @@ function makeLargeImg(the_id) {
     var the_caption = the_id.alt;
     var img_id = the_id.id;
     var full_img_path = "images" + "/" + large_img_obj[img_id].lrgimg;
-    console.log("FULL IMG PATH: ", full_img_path);
+    //console.log("FULL IMG PATH: ", full_img_path);
     //GET THE MODAL FRAME
     var modal = document.getElementById('theModal');
     var img = document.getElementById(img_id);
