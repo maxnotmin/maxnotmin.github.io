@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2b2764-4a50-4c2c-a787-56a595ce94b2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/max_pages.css" afterPath="$PROJECT_DIR$/css/max_pages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design_branding.html" afterPath="$PROJECT_DIR$/design_branding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboards.html" afterPath="$PROJECT_DIR$/dashboards.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/overwrite.js" afterPath="$PROJECT_DIR$/js/overwrite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme_style.css" afterPath="$PROJECT_DIR$/theme_style.css" />
     </list>
     <ignored path="maxnotmin.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40518963">
-              <caret line="175" column="60" selection-start-line="175" selection-start-column="60" selection-end-line="175" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.91417164">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,28 @@
       <file leaf-file-name="max_pages.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/max_pages.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.041667">
-              <caret line="825" column="5" selection-start-line="825" selection-start-column="5" selection-end-line="825" selection-end-column="5" />
+            <state vertical-scroll-proportion="-19.333334">
+              <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="825" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.333334">
+              <caret line="7934" column="26" selection-start-line="7934" selection-start-column="26" selection-end-line="7934" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboards.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboards.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -104,12 +124,13 @@
         <option value="$PROJECT_DIR$/selenium_auto.html" />
         <option value="$PROJECT_DIR$/rocketchat_auto.html" />
         <option value="$PROJECT_DIR$/web_dev.html" />
-        <option value="$PROJECT_DIR$/dashboards.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/design_branding.html" />
         <option value="$PROJECT_DIR$/js/overwrite.js" />
         <option value="$PROJECT_DIR$/css/max_pages.css" />
+        <option value="$PROJECT_DIR$/dashboards.html" />
+        <option value="$PROJECT_DIR$/theme_style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -777,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboards.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.708333">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.666667">
@@ -819,16 +832,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/max_pages.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.041667">
-          <caret line="825" column="5" selection-start-line="825" selection-start-column="5" selection-end-line="825" selection-end-column="5" />
+        <state vertical-scroll-proportion="-19.333334">
+          <caret line="825" column="0" selection-start-line="825" selection-start-column="0" selection-end-line="825" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.333334">
+          <caret line="7934" column="26" selection-start-line="7934" selection-start-column="26" selection-end-line="7934" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40518963">
-          <caret line="175" column="60" selection-start-line="175" selection-start-column="60" selection-end-line="175" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.91417164">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
           <folding />
         </state>
       </provider>
