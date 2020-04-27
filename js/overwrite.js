@@ -38,3 +38,10 @@ function makeLargeImg(the_id) {
         modal.style.display = "none";
     }
 };
+
+function fixtap(thelink){
+    var link = thelink.href;
+    //console.log("LINK FIX: ", link);
+    window.location.href = link
+
+}
