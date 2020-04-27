@@ -41,7 +41,7 @@ function makeLargeImg(the_id) {
 
 function fixtap(thelink){
     var link = thelink.href;
-    //console.log("LINK FIX: ", link);
+    console.log("LINK FIX: ", link);
     window.location.href = link
 
 }
